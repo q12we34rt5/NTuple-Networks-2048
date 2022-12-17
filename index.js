@@ -2,7 +2,7 @@ import * as Vue from "./lib/vue/vue.js";
 import { loadModule } from "./lib/vue-loader/vue3-sfc-loader.esm.js";
 import { addFile, addFileFromInput, getFileList, deleteFile } from "./engine/file-system.js";
 import { readPatternInfo, Network } from "./engine/network.js";
-import * as d3 from "https://cdn.skypack.dev/d3@7";
+import * as d3 from "https://esm.sh/d3@7.6.1?dev";
 
 const options = {
     moduleCache: {
